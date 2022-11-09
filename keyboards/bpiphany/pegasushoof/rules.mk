@@ -11,4 +11,6 @@ BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 AUDIO_ENABLE = no           # Audio output
 RGBLIGHT_ENABLE = no        # Enable WS2812 RGB underlight.
 
-DEFAULT_FOLDER=bpiphany/pegasushoof/2013
+LAYOUTS = tkl_ansi tkl_iso
+
+DEFAULT_FOLDER = bpiphany/pegasushoof/2015

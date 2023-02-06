@@ -14,16 +14,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-
 #pragma once
-
-/* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x6050
-#define DEVICE_VER      0x0123
-#define MANUFACTURER    Filco
-#define PRODUCT         Filco Majestouch 2 TKL ISO UK + The Pegasus Hoof 2015
-/* #define DESCRIPTION     QMK firmware for the Filco Majestouch 2 TKL ISO UK + The Pegasus Hoof 2015 */
 
 /* key matrix size */
 #define MATRIX_ROWS 8

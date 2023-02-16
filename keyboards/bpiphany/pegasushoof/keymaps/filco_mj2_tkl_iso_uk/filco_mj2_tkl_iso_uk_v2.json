@@ -21,7 +21,7 @@
             "KC_F11",
             "KC_F12",
             "KC_PSCR",
-            "KC_SLCK",
+            "KC_SCRL",
             "KC_PAUS",
             "KC_GRV",
             "KC_1",
@@ -111,7 +111,7 @@
             "KC_F11",
             "KC_F12",
             "KC_PSCR",
-            "KC_SLCK",
+            "KC_SCRL",
             "KC_PAUS",
             "KC_NUBS",
             "KC_1",
@@ -187,7 +187,7 @@
             "KC_RGHT"
         ],
         [
-            "KC_NO",
+            "KC_EJCT",
             "KC_BRID",
             "KC_BRIU",
             "KC_NO",

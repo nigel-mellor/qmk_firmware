@@ -22,6 +22,5 @@ MAGIC_ENABLE = no
 MUSIC_ENABLE = no
 CUSTOM_MATRIX = yes
 LTO_ENABLE = yes
-LAYOUTS = tkl_ansi tkl_iso
 SRC += matrix.c
 SRC += user.c

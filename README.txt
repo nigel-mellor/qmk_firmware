@@ -21,8 +21,8 @@ git push -f
 
 make git-submodules clean distclean
 
-qmk clean && qmk compile -kb bpiphany/pegasushoof/2015 -km mac_uk_iso
-qmk clean && qmk compile -kb xiudi/xd87 -km mac_uk_iso
-qmk clean && qmk compile -kb filco/majestouch2/tkl -km mac_uk_iso
+make clean bpiphany/pegasushoof/2015:mac_uk_iso
+make clean filco/majestouch2/tkl:mac_uk_iso
+make clean xiudi/xd87:mac_uk_iso
 
 ./util/docker_build.sh filco/majestouch2/tkl:mac_uk_iso

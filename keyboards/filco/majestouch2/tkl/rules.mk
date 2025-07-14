@@ -1,12 +1,3 @@
-# MCU name
-MCU = atmega32u2
-
-# Bootloader selection
-BOOTLOADER = atmel-dfu
-
-# Build Options
-#   change yes to no to disable
-#
 BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
 MOUSEKEY_ENABLE = no        # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
@@ -22,5 +13,6 @@ MAGIC_ENABLE = no
 MUSIC_ENABLE = no
 CUSTOM_MATRIX = yes
 LTO_ENABLE = yes
+
 SRC += matrix.c
 SRC += user.c

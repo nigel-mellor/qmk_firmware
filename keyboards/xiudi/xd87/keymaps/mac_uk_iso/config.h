@@ -28,5 +28,5 @@
 #define BACKLIGHT_DEFAULT_LEVEL 0
 #define BACKLIGHT_LIMIT_VAL 200
 
-#define BOOTMAGIC_LITE_COLUMN 0
-#define BOOTMAGIC_LITE_ROW 0
+/* Fix for Apple Silicon Macs struggling to detect board after suspend/sleep */
+#define USB_SUSPEND_WAKEUP_DELAY 5000

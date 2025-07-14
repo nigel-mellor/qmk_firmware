@@ -29,3 +29,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define NO_MUSIC_MODE
 
 #define LAYER_STATE_8BIT
+
+/* Fix for Apple Silicon Macs struggling to detect board after suspend/sleep */
+#define USB_SUSPEND_WAKEUP_DELAY 5000

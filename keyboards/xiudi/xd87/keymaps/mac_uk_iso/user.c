@@ -20,12 +20,12 @@ bool led_update_user(led_t led_state) {
     if (led_state.caps_lock) {
       savedBacklightLevel = get_backlight_level();
       if (savedBacklightLevel > 1) {
-        backlight_level(1);
+        backlight_level_noeeprom(1);
       }
     }
     else {
       if (savedBacklightLevel != get_backlight_level()) {
-        backlight_level(savedBacklightLevel);
+        backlight_level_noeeprom(savedBacklightLevel);
       }
     }
   }

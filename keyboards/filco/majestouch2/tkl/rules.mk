@@ -13,6 +13,7 @@ MAGIC_ENABLE = no
 MUSIC_ENABLE = no
 CUSTOM_MATRIX = yes
 LTO_ENABLE = yes
+NO_SUSPEND_POWER_DOWN = yes
 
 SRC += matrix.c
 SRC += user.c
